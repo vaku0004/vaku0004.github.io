@@ -56,7 +56,15 @@ header, footer {
   }
 
   dt {
-    color: rgb(173, 36, 63);
+    color: rgb(167, 18, 97);
+    list-style-type: square;
   }
 
- 
+ #list2 {
+  list-style-type: circle;
+  
+ }
+
+ #list2 a {
+  text-decoration: none;
+ }
