@@ -6,35 +6,33 @@ body {
     background-color:#D1D7E5;
 }
 
+
+
 header {
-    margin-top: -10px;
-    display: block;
-    text-align: justify;
+    padding: 150px;
+    background-image: url("../images/mountain-7274247\(2\).jpg");
+    background-size: 1350px 400px;
     background-repeat: no-repeat;
-    padding-left: 84px;
-    position: relative;
-    height: auto;
+    background-position: center;
+    position:relative;
+    margin: -0.6%;
 }
 
 
 h1{
-    background-position: center;
-    margin-left: 400px;
     color: #ebebeb;
     text-transform: uppercase;
     position: absolute;
-    top: 220px;
-    font-size: 65px;
-    text-shadow: 2px 2px 10px rgb(4, 4, 4);
+    font-size: 58px;
+    text-shadow: 1px 1px 8px black;
     letter-spacing: 1px;
-    text-align: justify;
+    margin-left: 24%;
     /*I wanted to add a gradient  to the header font from top to bottom from white to black or grey, but it didn't work out:
     background: linear-gradient(to top, rgb(255, 253, 253) 100%, rgb(149, 149, 148) 50%, rgb(58, 58, 58) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
    
 }
-
 
 
 .wrapper {
@@ -55,7 +53,6 @@ h1{
     background-color: 236, 234, 234;
 }
 
-
 li a {
     float: left;
     display: block;
@@ -65,6 +62,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
 
 #first {
@@ -76,6 +74,7 @@ li a {
     float: left;
     border-right: 1px solid #bbb;
 }
+
 
 .list2 {
     list-style-type: square;
@@ -94,6 +93,7 @@ article {
 h2 {
     margin: 30px;
     color: #333;
+    font-family:;
 }
 
 form {
@@ -166,3 +166,4 @@ form {
     padding-bottom: 20px;
     padding-top: 15px;
   }
+
