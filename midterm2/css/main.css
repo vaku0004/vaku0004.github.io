@@ -9,7 +9,7 @@ body {
 
 
 header {
-    padding: 150px;
+    padding: 175px;
     background-image: url("../images/mountain-7274247\(2\).jpg");
     background-size: 1350px 400px;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ h1{
     font-size: 58px;
     text-shadow: 1px 1px 8px black;
     letter-spacing: 1px;
-    margin-left: 24%;
+    margin-left: 21%;
     /*I wanted to add a gradient  to the header font from top to bottom from white to black or grey, but it didn't work out:
     background: linear-gradient(to top, rgb(255, 253, 253) 100%, rgb(149, 149, 148) 50%, rgb(58, 58, 58) 100%);
     -webkit-background-clip: text;
@@ -126,7 +126,7 @@ form {
     resize:vertical;
   }
 
-  [type="send"] {
+  [type="submit"] {
     width: 5%;
     background:local;
     border:1px solid #525151;
