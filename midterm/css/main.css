@@ -9,7 +9,6 @@ body {
 header {
     margin-top: -10px;
     display: block;
-    text-align: justify;
     background-repeat: no-repeat;
     padding-left: 84px;
     position: relative;
@@ -27,7 +26,6 @@ h1{
     font-size: 65px;
     text-shadow: 2px 2px 10px rgb(4, 4, 4);
     letter-spacing: 1px;
-    text-align: justify;
     /*I wanted to add a gradient  to the header font from top to bottom from white to black or grey, but it didn't work out:
     background: linear-gradient(to top, rgb(255, 253, 253) 100%, rgb(149, 149, 148) 50%, rgb(58, 58, 58) 100%);
     -webkit-background-clip: text;
