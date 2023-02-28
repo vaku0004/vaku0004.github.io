@@ -131,7 +131,7 @@ form {
     padding-top:8px;
     padding-bottom:8px;
   }
-  [type="send"]:hover { background:#ffffff; }
+  [type="submit"]:hover { background:#ffffff; }
 
   #photobird {
     float: left;
