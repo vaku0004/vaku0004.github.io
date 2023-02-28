@@ -121,7 +121,7 @@ form {
     resize:vertical;
   }
 
-  [type="send"] {
+  [type="sumbut"] {
     width: 5%;
     background:local;
     border:1px solid #525151;
