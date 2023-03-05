@@ -100,14 +100,14 @@ li a:hover {
 
 article {
         margin: 40px;
-        padding-top: -5px;
+        padding-top: 1px;
       }
 
 h2 {
     margin: 40px;
     color: #474747;
     font-size: 30px;
-    text-shadow: 2px black;
+    text-shadow: 2px 0px 0px black;
     font-family: 'EB Garamond', serif;
     text-align: center;
  
@@ -116,7 +116,7 @@ h2 {
 
 p{
   font-size: 20px;
-  padding-top: -5px;
+  padding-top: 1px;
   margin: 16px;
   font-family: 'NTR', sans-serif;
   color: #484848;
@@ -173,7 +173,8 @@ form {
     float: left;
     margin-right: 20px;
     margin-left: 55px;
-    margin-top: 8px;
+    margin-top: 32px;
+    margin-bottom:10px;
   }
 
   input[type="radio"] {
