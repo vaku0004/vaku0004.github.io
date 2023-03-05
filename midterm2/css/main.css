@@ -4,6 +4,8 @@ html {
     box-sizing:border-box;
 }
 
+/*Color of the page*/
+
 body {
     background-color:#D1D7E5;
 }
@@ -50,6 +52,8 @@ h1{
     z-index: 2;
   }
 
+  /* Main navigation */
+
   nav ul {
     display: flex;
     list-style: none;
@@ -85,6 +89,11 @@ nav a {
     border-right: 1px solid #bbb;
 }
 
+li a:hover {
+  background-color: #fffefe;
+}
+
+/*The second list about facts*/
 
 .list2 {
     list-style-type: square;
@@ -94,25 +103,33 @@ nav a {
     color: #484848;
 }
 
-li a:hover {
-    background-color: #fffefe;
-}
+
+
+  /*the photo of bird after the heading must be on the same level with the first paragraph*/
+  #photobird {
+    float: left;
+    margin-right: 20px;
+    margin-left: 55px;
+    margin-top: 32px;
+    margin-bottom:10px;
+  }
+
+  h2 {
+    margin: 40px;
+    color: #474747;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+  }
+
+/*Article include 5 paragraps*/
 
 article {
         margin: 40px;
         padding-top: 1px;
       }
 
-h2 {
-    margin: 40px;
-    color: #474747;
-    font-size: 30px;
-    text-shadow: 2px 0px 0px black;
-    font-family: 'EB Garamond', serif;
-    text-align: center;
- 
-    
-}
+
 
 p{
   font-size: 20px;
@@ -122,6 +139,8 @@ p{
   color: #484848;
 
 }
+
+/*Contact section*/
 
 form {
     border: 1px solid #333;
@@ -169,13 +188,6 @@ form {
   }
   [type="submit"]:hover { background:#ffffff; }
 
-  #photobird {
-    float: left;
-    margin-right: 20px;
-    margin-left: 55px;
-    margin-top: 32px;
-    margin-bottom:10px;
-  }
 
   input[type="radio"] {
     appearance: none;
