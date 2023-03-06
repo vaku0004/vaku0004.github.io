@@ -42,6 +42,10 @@ h1{
    
 }
 
+.first h2 {
+  margin-left: 50px;
+}
+
 
 .wrapper {
     margin: auto;
