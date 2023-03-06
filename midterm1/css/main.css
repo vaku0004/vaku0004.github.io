@@ -1,51 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300&family=Anek+Tamil:wght@200;300&family=Asul&family=Athiti:wght@200;300&family=Belleza&family=Darker+Grotesque:wght@300;400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=GFS+Neohellenic&family=NTR&family=Playfair+Display+SC:ital@1&family=Red+Hat+Display:wght@300&family=Thasadith&display=swap');
-/*google fonts*/
-
-
 html {
     box-sizing:border-box;
 }
-
-/*Color of the page*/
 
 body {
     background-color:#D1D7E5;
 }
 
-
-
 header {
-    padding: 175px;
-    background-image: url("../images/mountain-7274247\(2\).jpg");
-    background-size: 1350px 400px;
+    margin-top: -10px;
+    display: block;
     background-repeat: no-repeat;
-    background-position: center;
-    position:relative;
-    margin: -0.6%;
-    z-index: 1;
+    padding-left: 77px;
+    position: relative;
+    height: auto;
 }
 
 
 h1{
+    background-position: center;
+    margin-left: 400px;
     color: #ebebeb;
     text-transform: uppercase;
     position: absolute;
-    font-size: 58px;
-    text-shadow: 1px 1px 8px black;
+    top: 220px;
+    font-size: 65px;
+    text-shadow: 2px 2px 10px rgb(4, 4, 4);
     letter-spacing: 1px;
-    margin-left: 21%;
-    z-index: auto;
     /*I wanted to add a gradient  to the header font from top to bottom from white to black or grey, but it didn't work out:
     background: linear-gradient(to top, rgb(255, 253, 253) 100%, rgb(149, 149, 148) 50%, rgb(58, 58, 58) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
    
 }
-
-.first h2 {
-  margin-left: 50px;
-}
-
 
 .wrapper {
     margin: auto;
@@ -55,34 +41,25 @@ h1{
     border:1px solid #969595;
     margin-top: -5px;
     position: relative;
-    z-index: 2;
   }
 
-  /* Main navigation */
-
-  nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
+.navlist {
+    list-style-type: none;
     margin: 0;
-  }
-  
-  nav li {
-    flex: 1;
-    width: 33.33%;
-    text-align: center;
-  }
+    padding: 0;
+    overflow: hidden;
+}
 
 
-nav a {
+li a {
+    float: left;
     display: block;
+    width: 417px;
     color: rgb(65, 64, 64);
     text-align: center;
-    padding: 20px 16px;
+    padding: 14px 16px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
-    
 }
 
 #first {
@@ -95,67 +72,30 @@ nav a {
     border-right: 1px solid #bbb;
 }
 
-li a:hover {
-  background-color: #fffefe;
-}
-
-/*The second list about facts*/
-
 .list2 {
     list-style-type: square;
     margin: 30px;
-    font-size: 20px;
-    font-family: 'NTR', sans-serif;
-    color: #484848;
 }
 
-
-
-  /*the photo of bird after the heading must be on the same level with the first paragraph*/
-  #photobird {
-    float: left;
-    margin-right: 20px;
-    margin-left: 25px;
-    margin-top: 12px;
-    margin-bottom:5px;
-  }
-
-  h2 {
-    margin: 40px;
-    color: #474747;
-    font-size: 30px;
-    font-family: 'EB Garamond', serif;
-    text-align: center;
-  }
-
-/*Article include 5 paragraps*/
+li a:hover {
+    background-color: #fffefe;
+}
 
 article {
-        margin: 40px;
-        padding-top: 1px;
+        color: #333;
+        margin: 30px;
       }
 
-
-
-p{
-  font-size: 20px;
-  padding-top: 1px;
-  margin: 16px;
-  font-family: 'NTR', sans-serif;
-  color: #484848;
-
+h2 {
+    margin: 30px;
+    color: #333;
 }
-
-/*Contact section*/
 
 form {
     border: 1px solid #333;
     padding: 20px;
     margin: 30px;
     line-height: 22px;
-    font-size: 20px;
-    font-family: 'NTR', sans-serif;
-    color: #484848;
   }
 
   .feedback-input {
@@ -190,10 +130,13 @@ form {
     margin-top:15px;
     padding-top:8px;
     padding-bottom:8px;
-    font-family: Arial, Helvetica, sans-serif;
   }
   [type="submit"]:hover { background:#ffffff; }
 
+  #photobird {
+    float: left;
+    margin-right: 10px;
+  }
 
   input[type="radio"] {
     appearance: none;
@@ -213,9 +156,8 @@ form {
 
   footer{
     text-align: right;
-    font-size: 10px;
+    font-size: 14px;
     padding-right: 30px;
     padding-bottom: 20px;
     padding-top: 15px;
   }
-
