@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300&family=Anek+Tamil:wght@200;300&family=Asul&family=Athiti:wght@200;300&family=Belleza&family=Darker+Grotesque:wght@300;400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=GFS+Neohellenic&family=NTR&family=Playfair+Display+SC:ital@1&family=Red+Hat+Display:wght@300&family=Thasadith&display=swap');
-/*google fonts*/
+/*I used Google fonts to learn how to customize them on a page*/
 
 
 html {
     box-sizing:border-box;
 }
 
-/*Color of the page*/
+/*Ideally, it would be white color, but because in the task it was necessary to demonstrate the ability to choose the color of the background, I chose gray*/
 
 body {
     background-color:#D1D7E5;
@@ -22,7 +22,6 @@ header {
     background-position: center;
     position:relative;
     margin: -0.6%;
-    z-index: 1;
 }
 
 
@@ -34,11 +33,12 @@ h1{
     text-shadow: 1px 1px 8px black;
     letter-spacing: 1px;
     margin-left: 21%;
-    z-index: auto;
-    /*I wanted to add a gradient  to the header font from top to bottom from white to black or grey, but it didn't work out:
+    /*I wanted to add a gradient to the header font from top to bottom from white to black or grey, but it didn't work out:
     background: linear-gradient(to top, rgb(255, 253, 253) 100%, rgb(149, 149, 148) 50%, rgb(58, 58, 58) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
+    -webkit-text-fill-color: transparent;
+    
+    What's wrong?*/
    
 }
 
@@ -46,7 +46,7 @@ h1{
   margin-left: 50px;
 }
 
-
+/*I added borders to the wrapper because it looks better with them*/
 .wrapper {
     margin: auto;
     width: 1349px;
@@ -111,7 +111,7 @@ li a:hover {
 
 
 
-  /*the photo of bird after the heading must be on the same level with the first paragraph*/
+ 
   #photobird {
     float: left;
     margin-right: 20px;
@@ -120,6 +120,7 @@ li a:hover {
     margin-bottom:5px;
   }
 
+  /*I put the headlines in the middle because that's how they look better. In the sample page, the headings were on the left.*/
   h2 {
     margin: 40px;
     color: #474747;
@@ -128,7 +129,7 @@ li a:hover {
     text-align: center;
   }
 
-/*Article include 5 paragraps*/
+
 
 article {
         margin: 40px;
@@ -192,6 +193,8 @@ form {
     padding-bottom:8px;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  /*With hover function the button helps to visualize the page*/
   [type="submit"]:hover { background:#ffffff; }
 
 
@@ -206,7 +209,9 @@ form {
     margin-right: 10px;
     margin-top: 10px;
   }
-  
+
+
+  /*I experimented with a radio type design*/
   input[type="radio"]:checked {
     background-color: #ADB9D1;
   }
