@@ -9,7 +9,8 @@ html {
 /*Ideally, it would be white color, but because in the task it was necessary to demonstrate the ability to choose the color of the background, I chose gray*/
 
 body {
-    background-color:#D1D7E5;
+    background-color:#d7dce7;
+    ;
 }
 
 
@@ -26,7 +27,7 @@ header {
 
 
 h1{
-    color: #ebebeb;
+    color: #fcfcff;
     text-transform: uppercase;
     position: absolute;
     font-size: 58px;
@@ -51,7 +52,7 @@ h1{
     margin: auto;
     width: 1349px;
     background-position: center;
-    background-color: #E6EBF5;
+    background-color: #dbe1ec;
     border:1px solid #969595;
     margin-top: -5px;
     position: relative;
@@ -204,7 +205,7 @@ form {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: 1px solid #525151;
+    border: 1px solid #c5c9d0;
     background-color: #fff;
     margin-right: 10px;
     margin-top: 10px;
@@ -213,7 +214,8 @@ form {
 
   /*I experimented with a radio type design*/
   input[type="radio"]:checked {
-    background-color: #ADB9D1;
+    background-color: white;
+    border: 5px solid #6e6e6e;
   }
 
   footer{
