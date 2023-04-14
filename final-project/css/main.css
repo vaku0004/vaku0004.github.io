@@ -59,6 +59,7 @@ nav li {
 .li-home {
     margin-top: -96px;
     width: 100%;
+    color: #222;
 }
 
 .li-home a {
@@ -66,12 +67,33 @@ nav li {
 }
 
 .navigation input {
-    width: 100%;
     font-size: 22px;
-    height: 45px;
+    line-height: 45px;
+    width: 100%;
+}
+
+
+.navigation input:focus {
+    outline: none; /* I used this code to remove the blue highlighting when searching */
 }
 
 .logo-img {
     width: 15%;
     height: 15%;
+}
+
+.fa-magnifying-glass {
+    color: #c78c06;
+    border: 2px solid #c78c06;
+    line-height: 45px;
+    width: 45px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation form {
+    display: inline-flex;
+    width: 100%;
 }
