@@ -4,8 +4,27 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
 }
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding-left: 14px
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-left: 14px
+}
+
+/* MOBILE VERSION */
 
 .wrapper {
      width: 100%;
@@ -35,6 +54,7 @@ iframe {
 .navigation {
     background-color: #222;
     padding: 18px;
+    font-size: 18px;
 }
 
 nav a {
@@ -87,7 +107,7 @@ nav li {
     border: 2px solid #c78c06;
     line-height: 45px;
     width: 45px;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,3 +117,286 @@ nav li {
     display: inline-flex;
     width: 100%;
 }
+
+/* 2 block welcome */
+
+.welcome {
+    position: relative;
+}
+
+
+.container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*top: 10%;
+    bottom: 10%;
+    padding-left: 10px;
+    padding-right: 10px;*/
+    width: 100%;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+}
+
+
+
+.container h1 {
+    color: #f0ffff;
+    font-size: 4rem;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 1%;
+    /*left: 2%;*/
+    /*overflow: scroll; DOES NOT WORK */
+}
+.container p {
+    color: azure;
+    font-size: 1rem;
+    margin-top: 180px;
+    position: absolute;
+    /*left: 2%;*/
+    bottom: 25%;
+}
+
+.container button {
+    color: black;
+    background-color: #c78c06;
+    border: none;
+    font-size: 1.2rem;
+    /*line-height: 80px;
+    width: 30vw;*/
+    line-height: 12vw;
+    width: 33vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    margin-bottom: 10px;
+    left: 2%;
+    right: 0;
+    bottom: 2%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wel-img {
+    height: 110%;
+    width: 100vw;
+}
+
+.fa-play {
+    padding-left: 5%;
+    margin-top: 1%;
+}
+
+@media screen and (max-width: 200px) { /* DOES NOT WORK */
+    h1 {
+      font-size: 10px;
+    }
+    p {
+      font-size: 10px;
+    }
+}
+
+/* 3 block about us */
+
+.about {
+    background-color: #ffe6ac;
+    padding: 14px;
+}
+
+.about h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin-top: 1px;
+}
+
+/* 4-8 block services /sections*/
+
+.our-services {
+    background-color: #d2add0;
+    padding: 14px;
+    margin-top: 1px;
+}
+
+.digital,
+.marketing,
+.video-production,
+.web-development,
+.print {
+    padding-bottom: 14px;
+    background-color: #ffe6ac;
+}
+/*
+section button .d-services button {
+    background-color: #222;
+    color: white;
+    border: none;
+    border: none;
+    font-size: 1.2rem;
+    /*line-height: 80px;
+    width: 30vw;
+    line-height: 12vw;
+    width: 33vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    margin-left: 14px;
+    bottom: 50px;
+    /*these 3 codes allow me to pin the text inside the button:
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+section button {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    line-height: 12vw;
+    width: 33vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    margin-left: 14px;
+    bottom: 50px;
+    /*these 3 codes allow me to pin the text inside the button:*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 9 vision*/
+
+.d-vision {
+    width: 90vw;
+    position: relative;
+    height: 280px;
+}
+
+.d-vision img {
+     /*clip-path: inset(20% 0 20% 0);*/
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;/*this code adapts the photo to the page size*/
+    width: 100%;
+    height: 300%;
+}
+
+.d-vision h3{
+    position: absolute;
+    top: 20px;
+    color: white;
+}
+
+
+.d-vision p {
+  position: absolute;
+  top: 100px; /* расположение текста относительно верхней границы родительского контейнера */
+  z-index: 1; /* значение z-index должно быть больше, чем у изображения */
+  color: #fff; /* цвет текста */
+}
+
+.d-vision button {
+    position: absolute;
+    bottom: 10%;
+    left: 14px;
+    font-size: 1.2rem;
+    line-height: 12vw;
+    width: 33vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c78c06;
+    background-color: #102842; 
+    color: white;
+}
+
+/* 10 our team*/
+
+.john-doe,
+.bob-rite {
+    padding-bottom: 14px;
+    background-color: #ffe6ac;
+}
+
+.john-doe img,
+.bob-rite img {
+    object-fit: cover; /*проверить код, вдруг картинка не доходит*/
+    height: auto; /*выравнимает картинку */
+    width: 93vw; /*выравнимает картинку по длине экрана*/
+}
+
+hr {
+    color: #c78c06;
+}
+
+.john-doe p,
+.bob-rite p {
+    margin-top: 5px;
+}
+
+.john-doe h3,
+.bob-rite h3 {
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+p b {
+    font-size: 0.85rem;
+  }
+
+  /* 11 contact*/
+
+  .contact{
+    padding: 20px;
+  }
+
+  form {
+    width: 96vw;
+    font-size: 0.8rem;
+  }
+
+
+  .feedback-input {
+    border: 1.5px solid #222;
+    padding: 5px; /*регулирует длину строк*/
+    margin-bottom: 10px;
+    width:95%;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+
+  .contact button{
+    color: #c78c06;
+    background-color: #222;
+    border: none;
+    height: 25px;
+    width: 45px;
+    font-size: 1rem;
+  }
