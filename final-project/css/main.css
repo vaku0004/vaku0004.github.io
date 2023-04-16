@@ -69,12 +69,6 @@ nav li {
     line-height: 3.3;
 }
 
-/*  
-.navigation ul {
-    margin: 0;
-    padding: 0;
-}
-*/
 
 .logo {
     background-color: #c78c06;
@@ -84,7 +78,7 @@ nav li {
 }
 
 .li-home {
-    margin-top: -60px; /* этот код смещает список по вертикали/ this code shifts the list vertically */
+    margin-top: -60px; /* this code shifts the list vertically */
     width: 100%;
     color: #222;
     margin-bottom: 0;
@@ -131,10 +125,6 @@ nav li {
 /* 2 block welcome */
 
 
-
-/*COPY
-COPY
-COPY*/
 .welcome {
     position: relative;
 }
@@ -235,7 +225,7 @@ COPY*/
     padding-left: 10px;
 }
 section{
-    margin: 18px; /*добавляет отступы по бокам между секциями - adds margins on the sides between sections*/
+    margin: 18px; /*adds margins on the sides between sections*/
     */
 }
 
@@ -250,28 +240,7 @@ section p {
     padding-bottom: 14px;
     background-color: #ffe6ac;
 }
-/*
-section button .d-services button {
-    background-color: #222;
-    color: white;
-    border: none;
-    border: none;
-    font-size: 1.2rem;
-    /*line-height: 80px;
-    width: 30vw;
-    line-height: 12vw;
-    width: 33vw;
-    max-width: 300px;
-    min-width: 200px;
-    max-height: 100px;
-    min-height: 65px;
-    margin-left: 14px;
-    bottom: 50px;
-    /*these 3 codes allow me to pin the text inside the button:
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
+
 
 section button {
     background-color: #222;
@@ -322,9 +291,8 @@ section button {
 
 .d-vision p {
   position: absolute;
-  top: 80px; /* расположение текста относительно верхней границы родительского контейнера */
-  /*z-index: 1;  значение z-index должно быть больше, чем у изображения */
-  color: #fff; /* цвет текста */
+  top: 80px; 
+  color: #fff; 
 }
 
 .d-vision button {
@@ -364,9 +332,9 @@ section button {
 
 .john-doe img,
 .bob-rite img {
-    object-fit: cover; /*проверить код, вдруг картинка не доходит*/
-    height: auto; /*выравнимает картинку */
-    width: 100%; /*выравнимает картинку по длине экрана*/
+    object-fit: cover; /*check the code*/
+    height: auto; 
+    width: 100%; 
 } 
 
 .john-doe img {
@@ -425,7 +393,7 @@ p b {
 
   .contact-form input {
     border: 1.5px solid #222;
-    padding: 5px; /*регулирует длину строк*/
+    padding: 5px; /*adjusts the length of the lines*/
     margin-bottom: 10px;
     width:99%;
     box-sizing: border-box;
@@ -455,12 +423,7 @@ p b {
   .table-hours {
     margin-left: 15px;
   }
-/*
-  .table-hours table {
-    width: 99%;
-    border: 1px solid black;
-    border-collapse: collapse;
-  }*/
+
 
   .table-hours table {
     border: 1px solid black;
@@ -722,7 +685,7 @@ footer a {
 .d-services {
     display: flex;
     flex-wrap:wrap;
-    justify-content: center; /*данный код выравнивает секции по середине страницы- this code aligns the sections in the middle of the page*/
+    justify-content: center; /* this code aligns the sections in the middle of the page*/
   }
 
 .our-services {
@@ -731,21 +694,9 @@ footer a {
     padding-left: 10px;
 }
 section{
-    margin: 10px; /*добавляет отступы по бокам между секциями - adds margins on the sides between sections*/
+    margin: 10px; /* adds margins on the sides between sections*/
 }
-/*
-section p {
-    margin-top: -18px;
-}
-.digital,
-.marketing,
-.video-production,
-.web-development,
-.print {
-    padding-bottom: 14px;
-    background-color: #ffe6ac;
-}
-*/
+
 .our-services {
     flex-basis:calc(100% - 4px);
     background-color: #aded59;
@@ -762,167 +713,6 @@ section p {
 .print {
     flex-basis:calc(30% - 1px);
    }
-/*
-section button .d-services button {
-    background-color: #222;
-    color: white;
-    border: none;
-    border: none;
-    font-size: 1.2rem;
-    /*line-height: 80px;
-    width: 30vw;
-    line-height: 12vw;
-    width: 33vw;
-    max-width: 300px;
-    min-width: 200px;
-    max-height: 100px;
-    min-height: 65px;
-    margin-left: 14px;
-    bottom: 50px;
-    /*these 3 codes allow me to pin the text inside the button:
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-/*
-section button {
-    background-color: #222;
-    color: white;
-    border: none;
-    font-size: 1.3rem;
-    line-height: 13vw;
-    width: 32vw;
-    max-width: 300px;
-    min-width: 200px;
-    max-height: 100px;
-    min-height: 65px;
-    margin-left: 14px;
-    bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-
-/* 9 vision*/
-/*
-.d-vision {
-    width: 99%;
-    position: relative;
-    height: 280px;
-}
-
-.d-vision img {
-    margin-top: 0px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    object-fit: cover;
-    width: 100%;
-    height: 300%;
-}
-
-.d-vision h3{
-    position: absolute;
-    top: 5px;
-    color: white;
-}
-
-
-.d-vision p {
-  position: absolute;
-  top: 80px; 
-  z-index: 1; 
-  color: #fff; 
-}
-
-.d-vision button {
-    position: absolute;
-    bottom: 10%;
-    left: 14px;
-    font-size: 1.4rem;
-    line-height: 13vw;
-    width: 32vw;
-    max-width: 300px;
-    min-width: 200px;
-    max-height: 100px;
-    min-height: 65px;
-    bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #c78c06;
-    background-color: #102842; 
-    color: white;
-}*/
-
-/* 10 our team*/
-/*
-.d-team h2 {
-    background-color: #aded59;
-    height: 100px;
-}
-
-.john-doe,
-.bob-rite {
-    padding-bottom: 14px;
-    background-color: #ffe6ac;
-    margin-left: 10px;
-}
-
-.bob-rite {
-    margin-top: 15px;
-}
-
-.john-doe img,
-.bob-rite img {
-    object-fit: cover; 
-    height: auto; 
-    width: 100%; 
-}
-
-.john-doe img {
-    margin-top: -35px;
-}
-
-
-hr {
-    color: #c78c06;
-}
-
-.john-doe p,
-.bob-rite p {
-    margin-top: 5px;
-}
-
-.john-doe h3,
-.bob-rite h3 {
-    margin-top: 10px;
-    margin-bottom: 0%;
-}
-
-p b {
-    font-size: 0.9rem;
-    font-weight: 800;
-  }
-*/
-/*
-  .d-team {
-    display: grid;
-    grid-template-rows:  1fr 1fr;
-    grid-template-columns: 1fr; 
-    height: 100%; 
-  }
-  
-  .john-doe, {
-    grid-row: 1 / 2; 
-  }
-
-   .bob-rite {
-    grid-row: 2 / 3; 
-  }
-*/
 
 .d-team {
     display: flex;
@@ -995,8 +785,6 @@ p b {
   footer {
     height: 100px;
   }
-
-
 }
 /* GRID 1 VERSION
   .d-contact{
@@ -1033,150 +821,3 @@ p b {
     background-color: #222;
   }
 /*  
-}
-/*
-  .d-contact{
-    width: 100vw;
-    height: 100vw;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(7, 1fr);
-  }
-
-  .d-contact h2{
-    grid-column: 1 / 3;
-    background-color: #7eb090;
-  }
-
-  .contact-form {
-    grid-column: 1 / 2;
-    grid-row: 2 / 6;
-  }
-
-  .location {
-    grid-column: 2 / 3;
-    grid-row: 2 / 6;
-  }
-
-  .table-hours {
-    grid-column: 1 / 3;
-    grid-row: 5 / 7;
-  }
-
-  .footer {
-    grid-row: 7 / 8;
-    grid-column: 1 / 3;
-  }
-  */
- 
-  /* 11 contact*/
-/*
-  .contact{
-    padding: 20px;
-  }
-
-  .send-h3 {
-    margin-left: -15px;
-    margin-top: -15px;
-    font-weight: 700;
-    margin-bottom: 15px;
-  }
-
-  .hours-h3 {
-    margin-top: 20px;
-    margin-left: -15px;
-    margin-bottom: 5px;
-  }
-
-  .contact form {
-    width: 95%;
-    font-size: 0.8rem;
-    display: flex;
-    flex-direction: column;
-    margin-right: 25px;
-  }
-
-
-  .contact input {
-    border: 1.5px solid #222;
-    padding: 5px; 
-    margin-bottom: 10px;
-    width:99%;
-    box-sizing: border-box;
-    border-radius: 3px;
-  }
-
-  
-  textarea {
-    width:98%;
-    line-height: 80px;
-    resize:vertical;
-  }
-
-  .contact button {
-    color: #c78c06;
-    background-color: #222;
-    border: none;
-    height: 35px;
-    width: 65px;
-    font-size: 1.3rem;
-    margin-top: 20px;
-  }
-
-  .contact table {
-    width: 90vw;
-    border: 1px solid black;
-    border-collapse: collapse; 
-  }
-
-   table {
-    border: 1px solid black;
-    width: 90vw;
-    line-height: 45px;
-    margin-bottom: -25px;
-  }
-  
-  th,
-  td {
-    border: 1px solid black;
-    font-size: 0.9rem;
-    font-weight: 500;
-  }
-
-  th {
-    background-color: #ffe6ac;
-    font-size: 0.9rem;
-    font-weight: 500;
-  }
-
-  td {
-    padding-left: 10px;
-  }
-
-  /* map size */
-/*
-iframe {
-    width: 95%;
-    height: 450px;
-    top: -10px;
-    margin-left: 14px;
-}
-
-.location h3 {
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #222;
-    color: #c78c06;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-footer a {
-    color: #c78c06;
-  }
-
-
-  }
-
