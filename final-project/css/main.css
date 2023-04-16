@@ -43,12 +43,6 @@ h3 {
     background-color: black;
 }
 
-/* map size */
-
-iframe {
-    width: 95%;
-    height: 300px;
-}
 
 /* 1 block navigation */
 .navigation {
@@ -370,29 +364,31 @@ p b {
     padding: 20px;
   }
 
-  form {
+  .contact form {
     width: 96vw;
     font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
   }
 
 
-  .feedback-input {
+  .contact input {
     border: 1.5px solid #222;
     padding: 5px; /*регулирует длину строк*/
     margin-bottom: 10px;
-    width:95%;
+    width:98%;
     box-sizing: border-box;
     border-radius: 3px;
   }
 
   
   textarea {
-    height: 150px;
+    width:98%;
     line-height: 150%;
     resize:vertical;
   }
 
-  .contact button{
+  .contact button {
     color: #c78c06;
     background-color: #222;
     border: none;
@@ -400,3 +396,53 @@ p b {
     width: 45px;
     font-size: 1rem;
   }
+
+  .contact table {
+    width: 90vw;
+    border: 1px solid black;
+    border-collapse: collapse; 
+  }
+
+   table {
+    border: 1px solid black;
+    width: 90vw;
+    line-height: 35px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    font-size: 0.7rem;
+  }
+
+  th {
+    background-color: #ffe6ac;
+    font-size: 0.7rem;
+    font-weight: normal;
+  }
+
+  td {
+    padding-left: 10px;
+  }
+
+  /* map size */
+
+iframe {
+    width: 95%;
+    height: 300px;
+    top: -10px;
+}
+
+.location h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+}
+
+footer a {
+    color: #c78c06;
+  }
+
