@@ -8,20 +8,25 @@ body {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3.3rem;
     font-weight: 700;
 }
 
 p {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 500;
     padding-left: 14px
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
     padding-left: 14px
+}
+
+h1 {
+    padding-left: 14px;
+    line-height: 1.5; 
 }
 
 /* MOBILE VERSION */
@@ -39,7 +44,7 @@ h3 {
 
 .small-img {
     height: auto;
-    width: 93vw;
+    width: 100vw;
     background-color: black;
 }
 
@@ -47,7 +52,7 @@ h3 {
 /* 1 block navigation */
 .navigation {
     background-color: #222;
-    padding: 18px;
+    padding: 14px;
     font-size: 18px;
 }
 
@@ -63,17 +68,24 @@ nav li {
     line-height: 3.3;
 }
 
+  
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     background-color: #c78c06;
     padding-top: 20px;/* check size of padding */
-    padding-bottom: 85px;
+    padding-bottom: 75px;
     /* width: 95%;*/
 }
 
 .li-home {
-    margin-top: -96px;
+    margin-top: -60px; /* этот код смещает список по вертикали/ this code shifts the list vertically */
     width: 100%;
     color: #222;
+    margin-bottom: 0;
 }
 
 .li-home a {
@@ -81,9 +93,10 @@ nav li {
 }
 
 .navigation input {
-    font-size: 22px;
-    line-height: 45px;
+    font-size: 17px;
+    line-height: 35px;
     width: 100%;
+    margin: 0;
 }
 
 
@@ -110,6 +123,7 @@ nav li {
 .navigation form {
     display: inline-flex;
     width: 100%;
+    margin-top: 0;
 }
 
 /* 2 block welcome */
@@ -127,27 +141,27 @@ nav li {
     padding-left: 10px;
     padding-right: 10px;*/
     width: 100%;
-    top: 10%;
+    top: 11%;
     left: 0;
     right: 0;
-    bottom: 10%;
+    bottom: 12%;
 }
 
 
 
 .container h1 {
     color: #f0ffff;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 700;
     position: absolute;
-    margin-top: 1%;
+    margin-top: 7%;
     /*left: 2%;*/
     /*overflow: scroll; DOES NOT WORK */
 }
 .container p {
     color: azure;
-    font-size: 1rem;
-    margin-top: 180px;
+    font-size: 0.9rem;
+    margin-top: 110px;
     position: absolute;
     /*left: 2%;*/
     bottom: 25%;
@@ -157,19 +171,19 @@ nav li {
     color: black;
     background-color: #c78c06;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     /*line-height: 80px;
     width: 30vw;*/
-    line-height: 12vw;
-    width: 33vw;
+    line-height: 13vw;
+    width: 35vw;
     max-width: 300px;
     min-width: 200px;
     max-height: 100px;
     min-height: 65px;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     left: 2%;
     right: 0;
-    bottom: 2%;
+    bottom: 3%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -177,8 +191,8 @@ nav li {
 }
 
 .wel-img {
-    height: 110%;
-    width: 100vw;
+    height: 610px;
+    width: 100%;
 }
 
 .fa-play {
@@ -186,39 +200,40 @@ nav li {
     margin-top: 1%;
 }
 
-@media screen and (max-width: 200px) { /* DOES NOT WORK */
-    h1 {
-      font-size: 10px;
-    }
-    p {
-      font-size: 10px;
-    }
-}
 
 /* 3 block about us */
 
 .about {
     background-color: #ffe6ac;
     padding: 14px;
+    margin-top: -8px;
 }
 
 .about h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .about p {
     margin-top: 1px;
+    margin-bottom: 18px;
 }
 
 /* 4-8 block services /sections*/
 
 .our-services {
-    background-color: #d2add0;
-    padding: 14px;
-    margin-top: 1px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+section{
+    margin: 18px; /*добавляет отступы по бокам между секциями - adds margins on the sides between sections*/
+    */
 }
 
+section p {
+    margin-top: -18px;
+}
 .digital,
 .marketing,
 .video-production,
@@ -254,9 +269,9 @@ section button {
     background-color: #222;
     color: white;
     border: none;
-    font-size: 1.2rem;
-    line-height: 12vw;
-    width: 33vw;
+    font-size: 1.3rem;
+    line-height: 13vw;
+    width: 32vw;
     max-width: 300px;
     min-width: 200px;
     max-height: 100px;
@@ -272,7 +287,7 @@ section button {
 /* 9 vision*/
 
 .d-vision {
-    width: 90vw;
+    width: 100vw;
     position: relative;
     height: 280px;
 }
@@ -292,14 +307,14 @@ section button {
 
 .d-vision h3{
     position: absolute;
-    top: 20px;
+    top: 5px;
     color: white;
 }
 
 
 .d-vision p {
   position: absolute;
-  top: 100px; /* расположение текста относительно верхней границы родительского контейнера */
+  top: 80px; /* расположение текста относительно верхней границы родительского контейнера */
   z-index: 1; /* значение z-index должно быть больше, чем у изображения */
   color: #fff; /* цвет текста */
 }
@@ -308,9 +323,9 @@ section button {
     position: absolute;
     bottom: 10%;
     left: 14px;
-    font-size: 1.2rem;
-    line-height: 12vw;
-    width: 33vw;
+    font-size: 1.4rem;
+    line-height: 13vw;
+    width: 32vw;
     max-width: 300px;
     min-width: 200px;
     max-height: 100px;
@@ -330,14 +345,24 @@ section button {
 .bob-rite {
     padding-bottom: 14px;
     background-color: #ffe6ac;
+    margin-left: 10px;
+}
+
+.bob-rite {
+    margin-top: 15px;
 }
 
 .john-doe img,
 .bob-rite img {
     object-fit: cover; /*проверить код, вдруг картинка не доходит*/
     height: auto; /*выравнимает картинку */
-    width: 93vw; /*выравнимает картинку по длине экрана*/
+    width: 100vw; /*выравнимает картинку по длине экрана*/
 }
+
+.john-doe img {
+    margin-top: -35px;
+}
+
 
 hr {
     color: #c78c06;
@@ -355,13 +380,27 @@ hr {
 }
 
 p b {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    font-weight: 800;
   }
 
   /* 11 contact*/
 
   .contact{
     padding: 20px;
+  }
+
+  .send-h3 {
+    margin-left: -15px;
+    margin-top: -15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .hours-h3 {
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-bottom: 5px;
   }
 
   .contact form {
@@ -384,7 +423,7 @@ p b {
   
   textarea {
     width:98%;
-    line-height: 150%;
+    line-height: 80px;
     resize:vertical;
   }
 
@@ -392,9 +431,10 @@ p b {
     color: #c78c06;
     background-color: #222;
     border: none;
-    height: 25px;
-    width: 45px;
-    font-size: 1rem;
+    height: 35px;
+    width: 65px;
+    font-size: 1.3rem;
+    margin-top: 20px;
   }
 
   .contact table {
@@ -406,19 +446,21 @@ p b {
    table {
     border: 1px solid black;
     width: 90vw;
-    line-height: 35px;
+    line-height: 45px;
+    margin-bottom: -25px;
   }
   
   th,
   td {
     border: 1px solid black;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 500;
   }
 
   th {
     background-color: #ffe6ac;
-    font-size: 0.7rem;
-    font-weight: normal;
+    font-size: 0.9rem;
+    font-weight: 500;
   }
 
   td {
@@ -429,8 +471,9 @@ p b {
 
 iframe {
     width: 95%;
-    height: 300px;
+    height: 450px;
     top: -10px;
+    margin-left: 14px;
 }
 
 .location h3 {
@@ -440,9 +483,23 @@ iframe {
 footer {
     background-color: #222;
     color: #c78c06;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer a {
     color: #c78c06;
+  }
+
+
+  /*I added this media query because with a small screen size h1 is overlaid with p*/
+  @media screen and (max-width: 660px) {
+    .container h1 {
+      color: #f0ffff !important;
+      font-size: 3.5rem !important;
+      font-weight: 700 !important;
+      position: absolute !important;
+      margin-top: 6% !important;
+    }
   }
 
