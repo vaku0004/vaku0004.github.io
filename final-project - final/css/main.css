@@ -147,7 +147,7 @@ nav li {
 
 
 .container h1 {
-    color: #f0ffff;
+    color: white;
     font-size: 4.5rem;
     font-weight: 700;
     position: absolute;
@@ -156,7 +156,7 @@ nav li {
     /*overflow: scroll; DOES NOT WORK */
 }
 .container p {
-    color: azure;
+    color: white;
     font-size: 0.9rem;
     margin-top: 110px;
     position: absolute;
@@ -508,12 +508,11 @@ nav ul {
 
 
 .logo {
-    background-color: #222;
     width: 100px;
-    height: 100px;
-    padding-top: auto;
-    padding-bottom: auto;
+    height: 80px;
+    margin-top: 30px;
     margin-left: 8%;
+    background-color: #222;
 }
 
 .navigation {
@@ -526,6 +525,7 @@ nav ul {
     padding-right: 1%;
     align-content:center;
     width: auto;
+    height: 120px;
 }
 
 .li-home {
@@ -542,6 +542,7 @@ nav ul {
 .logo-img {
     width: 100px;
     height: 100px;
+    margin-top: 10px;
 }
 
 .navigation input {
@@ -643,7 +644,7 @@ nav ul {
 
 .about h2 { 
     margin-top: 0;
-    margin-bottom: 10;
+    margin-bottom: 10px;
 }
 
 .about img {
@@ -671,10 +672,12 @@ nav ul {
     display: flex;
     flex-wrap:wrap;
     justify-content: center; /* this code aligns the sections in the middle of the page*/
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
 .d-services h2 {
-    margin-left: 8%;
+    margin-left: 3%;
   }
 
 .our-services {
@@ -687,15 +690,15 @@ section{
 }
 
 .our-services {
-    flex-basis:calc(100% - 4px);
+    flex-basis:calc(100% - 2px);
 }
     
-
+/*
 .digital,
 .marketing {
     flex-basis:calc(40% - 1px);
    }
-
+*/
 .video-production,
 .web-development,
 .print {
@@ -718,7 +721,7 @@ section{
 
 .digital,
 .marketing {
-    flex-basis:calc(40% - 1px);
+    flex-basis:calc(46% - 1px);
     position: relative;
     padding-bottom: 9%;
 }
@@ -751,6 +754,19 @@ section{
     height: 15%;
     left: 3%;
     right: 3%;
+}
+
+/*our vision*/
+
+.d-vision h3,
+.d-vision p {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.d-vision button {
+    margin-left: 7%;
+    margin-bottom: 1%;
 }
 
 /*D-TEAM/Team block*/
@@ -850,8 +866,9 @@ section{
 */
   footer {
     height: 80px;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 30px;
+    width: 95%;
   }
 }
 
