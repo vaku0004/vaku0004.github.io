@@ -694,75 +694,99 @@ footer a {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: -5px;
-    height: 250px;
+    height: auto;
     position: relative;
-    overflow: auto;
+    /*overflow: auto;*/
 } 
 
 .about p {
     /*position:absolute;*/
-    /*z-index: 2;*/
-    overflow: scroll;
+    /*z-index: 2;
+    overflow: scroll;*/
 }
 
 /* d-services//4-8 block services /sections*/
 
 .d-services {
-    display: flex;
     flex-wrap:wrap;
     justify-content: center; /* this code aligns the sections in the middle of the page*/
   }
 
 .d-services h2 {
-    margin-left: 8%;
+    margin-left: auto;
+    background-color: aqua;
+    height: auto;
   }
 
 .our-services {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    padding-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: auto;
 }
 section{
-    margin: 10px; /* adds margins on the sides between sections*/
+    margin: auto; /* adds margins on the sides between sections*/
 }
 
-.our-services {
-    flex-basis:calc(100% - 4px);
-}
-    
+.d-services h2{grid-area: 1;}
+.digital {grid-area: 2;}
+.marketing {grid-area: 3;}
+.video-production {grid-area: 4;}
+.web-development {grid-area: 5;}
+.print {grid-area: 6;}
 
-.digital,
-.marketing {
-    flex-basis:calc(40% - 1px);
+.d-services {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3; 1fr);
+  grid-template-areas: 
+  "1 1 1 1 1 1"
+  "2 2 2 3 3 3"
+  "4 4 5 5 6 6";
+  gap: 10px;
+}
+
+/*
+.d-services h2 { 
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+}
+
+.digital { 
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
    }
 
-.video-production,
-.web-development,
-.print {
-    flex-basis:calc(30% - 1px);
-   }
-
-.video-production,
-.web-development,
-.print {
-    width: 30%;
+.marketing { 
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
 }
 
-.video-production,
-.web-development,
-.print {
-    position: relative;
-    height: auto;
-    padding-bottom: 10%;
+.video-production {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
 }
 
+
+.web-development { 
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+}
+
+
+.print { 
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 2;
+}
+*/
+
+/*
 .digital,
 .marketing {
     flex-basis:calc(40% - 1px);
     position: relative;
     padding-bottom: 9%;
 }
-
+*/
 
 .digital button,
 .marketing button {
@@ -786,7 +810,7 @@ section{
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
+    /*position: absolute;*/
     width: 93%; 
     height: 15%;
     left: 3%;
