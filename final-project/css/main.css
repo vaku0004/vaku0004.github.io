@@ -749,6 +749,12 @@ section {
     right: 3%;
 }
 
+.video-production h3,
+.web-development h3,
+.print h3 {
+    font-size: 2rem;
+}
+
 /*our vision*/
 
 .d-vision h3,
