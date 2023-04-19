@@ -75,7 +75,6 @@ nav li {
     background-color: #c78c06;
     padding-top: 20px;/* check size of padding */
     padding-bottom: 75px;
-    /* width: 95%;*/
 }
 
 .li-home {
@@ -108,13 +107,14 @@ nav li {
 
 .fa-magnifying-glass { /*Icon search*/
     color: #c78c06;
-    border: 2px solid #c78c06;
+    border: 1px solid #c78c06;
     line-height: 45px;
-    width: 45px;
+    width: 40px;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: -10px;
 }
 
 .navigation form {
@@ -133,8 +133,9 @@ nav li {
 
 .container {
     position: absolute;
-    background-color: rgba(0, 0, 0, 1);
-    /*top: 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* previous settings:
+    top: 10%;
     bottom: 10%;
     padding-left: 10px;
     padding-right: 10px;*/
@@ -170,15 +171,12 @@ nav li {
     background-color: #c78c06;
     border: none;
     font-size: 1.4rem;
-    /*line-height: 80px;
-    width: 30vw;*/
     line-height: 13vw;
     width: 35vw;
     max-width: 300px;
     min-width: 200px;
     max-height: 100px;
     min-height: 65px;
-    /*margin-bottom: 10px;*/
     left: 2%;
     right: 0;
     bottom: 3%;
@@ -333,7 +331,7 @@ section button {
 
 .john-doe img,
 .bob-rite img {
-    /*object-fit: cover; /*useless code*/
+    /*object-fit: cover; /*does not work*/
     height: auto; 
     width: 100%; 
 } 
@@ -560,11 +558,9 @@ nav ul {
     color: #c78c06;
     border: 1px solid #c78c06;
     line-height: 15px;
-    width: 45px;
+    width: 28px;
     font-size: 20px; /*icon size*/
-    /*display: flex;*/
-    justify-content: center;
-    align-items: center;
+    padding-left: 4px;
 }
 
 .navigation form {
@@ -582,7 +578,7 @@ nav ul {
 
 .container {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     /*top: 10%;
     bottom: 10%;
     padding-left: 10px;
@@ -814,7 +810,6 @@ section{
     padding: 20px;
   }
 
-  
   .d-contact h2{grid-area: h2;}
   .contact-form {grid-area: form;}
   .table-hours {grid-area: hours;}
