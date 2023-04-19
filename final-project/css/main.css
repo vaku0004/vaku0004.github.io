@@ -133,7 +133,7 @@ nav li {
 
 .container {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     /*top: 10%;
     bottom: 10%;
     padding-left: 10px;
@@ -223,7 +223,7 @@ nav li {
 .our-services {
     margin-top: 30px;
     margin-bottom: 15px;
-    padding-left: 10px;
+    padding-left: 13px;
 }
 section{
     margin: 18px; /*adds margins on the sides between sections*/
@@ -316,7 +316,9 @@ section button {
 
 /* 10 our team*/
 
-
+.d-team h2 {
+    margin-left: 9px;
+}
 
 .john-doe,
 .bob-rite {
@@ -483,6 +485,7 @@ footer a {
     background-size: cover;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: -10px;
 }
 
 /*#1 block for dekstop version*/
@@ -685,7 +688,7 @@ nav ul {
 .our-services {
     margin-top: 30px;
     margin-bottom: 15px;
-    padding-left: 10px;
+    padding-left: 9px;
 }
 section{
     margin: 10px; /* adds margins on the sides between sections*/
