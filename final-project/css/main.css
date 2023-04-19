@@ -478,7 +478,7 @@ footer a {
 
   /*I added this media query because with a small screen size h1 is overlaid with p*/
   
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 650px) {
     .container h1 {
       font-size: 3.5rem !important;
       line-height: 1.3;
@@ -488,6 +488,7 @@ footer a {
       margin-top: 6% !important;
       line-height: 1.3;*/
     }
+
 }
 
 
@@ -508,40 +509,57 @@ footer a {
         box-sizing:border-box;
     }
 
-    nav ul {
+    nav li {
+        list-style: none;
         display: flex;
-        justify-content: center;
-        justify-content: space-around;
-        width: 40vw;
+        /*justify-content: space-between;*/
+        line-height: 2.5;
+    }
+
+    nav ul {
+        left: -100px;
+        right: -10px;
+        display: flex;
+        justify-content: space-between;
+         /*БЫЛО width 40VW И ЛУЧШЕ СМОТРЕЛОСЬ!!! 500px;*/
+        /*width: 500px;*/
+        width: 550px;
       }
 
 
     .logo {
-        background-color: #f9f9f9;
-        width: 90px;
-        height: 70px;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-top: 10px;
-        margin-left: 10px;
+        background-color: #222;
+        width: 100px;
+        height: 100px;
+        padding-top: auto;
+        padding-bottom: auto;
+        margin-left: 8%;
         }
-
+        /*
     .logo img {
       margin-top: 0px;
       margin-left: 0px;
-    }
+    }*/
     
 
     .navigation {
-        display: flex;
-        justify-content: flex-end;
+        display: flex;/*без данного кода объекты разбросаны по меню*/
+        /*justify-content: space-between;*/
+        align-items: center; /*выравнивает навигационное меню по середине*/
         font-size: 1rem;
+        justify-content: space-between;
+        gap: 1px;
+        padding-left: 1px;
+        padding-right: 1%;
+        align-content:center;*/
+        width: auto;
     }
 
 
     .li-home {
         background-color: #c78c06;
-        margin-top: 0;
+        margin-top: 0px;
+        margin-left: -20px;
         width: 100px;
     }
     
@@ -550,23 +568,23 @@ footer a {
     }
 
     .logo-img {
-        width: 100%;
-        height: 100%;
+        width: 100px;
+        height: 100px;
     }
 
     .navigation input {
         font-size: 17px;
         line-height: 15px;
-        width: 50%;
+        width: 45%;
     }
     
     .fa-magnifying-glass {
         color: #c78c06;
-        border: 2px solid #c78c06;
+        border: 1px solid #c78c06;
         line-height: 15px;
         width: 45px;
-        font-size: 25px;
-        display: flex;
+        font-size: 20px; /*размер иконки*/
+        /*display: flex;*/
         justify-content: center;
         align-items: center;
     }
@@ -574,9 +592,11 @@ footer a {
     .navigation form {
         /*display: inline-flex;*/
         width: 30%;
-        height: 35px;
-        margin-top: 30px;
+        height: 33px;
+        /*margin-top: 30px;*/
+        margin-right: -50px;
     }
+
 
     /* 2 block welcome */
 
@@ -693,7 +713,7 @@ footer a {
     justify-content: center; /* this code aligns the sections in the middle of the page*/
   }
 
-  .d-services h2 {
+.d-services h2 {
     margin-left: 8%;
   }
 
@@ -721,6 +741,88 @@ section{
 .print {
     flex-basis:calc(30% - 1px);
    }
+
+.video-production,
+.web-development,
+.print {
+    width: 30%;
+}
+
+.video-production,
+.web-development,
+.print {
+    position: relative;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.digital,
+.marketing {
+    flex-basis:calc(40% - 1px);
+    position: relative;
+    padding-bottom: 9%;
+}
+
+
+.digital button,
+.marketing button {
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: 10px;
+    width: 90%;
+    left: 3%;
+    right: 3%;
+    height: 15%;
+}
+
+.video-production button,
+.web-development button,
+.print button {
+    margin-bottom: -33px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 93%; 
+    height: 15%;
+    left: 3%;
+    right: 3%;
+      /*left: 50%;
+    transform: translateX(-50%);  /*- это очень крутой код для центрирования кнопки внутри секции*/
+}
+
+/*
+section button {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 0;
+    justify-content: 0;
+    margin-bottom: -40px;
+    /*background-color: #222;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    line-height: 13vw;
+    width: 32vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    margin-left: 14px;
+    bottom: 50px;
+    /*these 3 codes allow me to pin the text inside the button:*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Team block*/
 
 .d-team {
     display: flex;
