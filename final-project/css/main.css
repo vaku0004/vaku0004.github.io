@@ -775,6 +775,8 @@ section{
     left: 3%;
     right: 3%;
     height: 15%;
+    min-width: 100px;
+    max-width: 500px;
 }
 
 .video-production button,
