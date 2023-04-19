@@ -1,0 +1,949 @@
+html {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding-left: 14px
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 14px
+}
+
+h1 {
+    padding-left: 14px;
+    line-height: 1.5; 
+}
+
+/* MOBILE VERSION */
+
+.wrapper {
+     width: 100%;
+     background-size: cover;
+     max-width: 1200px;
+}
+
+
+.wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.small-img {
+    height: auto;
+    width: 100vw;
+    background-color: black;
+}
+
+
+/* 1 block navigation */
+.navigation {
+    background-color: #222;
+    padding: 14px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c78c06;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    line-height: 3.3;
+}
+
+
+.logo {
+    background-color: #c78c06;
+    padding-top: 20px;/* check size of padding */
+    padding-bottom: 75px;
+    /* width: 95%;*/
+}
+
+.li-home {
+    margin-top: -60px; /* this code shifts the list vertically */
+    width: 100%;
+    color: #222;
+    margin-bottom: 0;
+}
+
+.li-home a {
+    color: #222;
+}
+
+.navigation input {
+    font-size: 17px;
+    line-height: 35px;
+    width: 100%;
+    margin: 0;
+}
+
+
+.navigation input:focus {
+    outline: none; /* I used this code to remove the blue highlighting when searching */
+}
+
+.logo-img {
+    width: 15%;
+    height: 15%;
+}
+
+.fa-magnifying-glass { /*Icon search*/
+    color: #c78c06;
+    border: 2px solid #c78c06;
+    line-height: 45px;
+    width: 45px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation form {
+    display: inline-flex;
+    width: 98%;
+    margin-top: 0;
+}
+
+/* 2 block welcome */
+
+
+.welcome {
+    position: relative;
+}
+
+
+.container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*top: 10%;
+    bottom: 10%;
+    padding-left: 10px;
+    padding-right: 10px;*/
+    width: 100%;
+    top: 11%;
+    left: 0;
+    right: 0;
+    bottom: 12%;
+}
+
+
+
+.container h1 {
+    color: #f0ffff;
+    font-size: 4.5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 7%;
+    /*left: 2%;*/
+    /*overflow: scroll; DOES NOT WORK */
+}
+.container p {
+    color: azure;
+    font-size: 0.9rem;
+    margin-top: 110px;
+    position: absolute;
+    /*left: 2%;*/
+    bottom: 25%;
+}
+
+.container button {
+    color: black;
+    background-color: #c78c06;
+    border: none;
+    font-size: 1.4rem;
+    /*line-height: 80px;
+    width: 30vw;*/
+    line-height: 13vw;
+    width: 35vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    /*margin-bottom: 10px;*/
+    left: 2%;
+    right: 0;
+    bottom: 3%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wel-img {
+    height: 610px;
+    width: 100%;
+}
+
+.fa-play {
+    padding-left: 5%;
+    margin-top: 1%;
+}
+
+
+/* 3 block about us */
+
+.about {
+    background-color: #ffe6ac;
+    padding: 14px;
+    margin-top: -8px;
+}
+
+.about h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.about p {
+    margin-top: 1px;
+    margin-bottom: 18px;
+}
+
+/* 4-8 block services /sections*/
+
+.our-services {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+section{
+    margin: 18px; /*adds margins on the sides between sections*/
+}
+
+section p {
+    margin-top: -18px;
+}
+.digital,
+.marketing,
+.video-production,
+.web-development,
+.print {
+    padding-bottom: 14px;
+    background-color: #ffe6ac;
+}
+
+
+section button {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    line-height: 13vw;
+    width: 32vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    margin-left: 14px;
+    bottom: 50px;
+    /*these 3 codes allow me to pin the text inside the button:*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 9 vision*/
+
+.d-vision {
+    width: 100%;
+    position: relative;
+    height: 280px;
+}
+
+.d-vision img {
+     /*clip-path: inset(20% 0 20% 0);*/
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;/*this code adapts the photo to the page size*/
+    width: 100%;
+    height: 300%;
+}
+
+.d-vision h3{
+    position: absolute;
+    top: 5px;
+    color: white;
+}
+
+
+.d-vision p {
+  position: absolute;
+  top: 80px; 
+  color: #fff; 
+}
+
+.d-vision button {
+    position: absolute;
+    bottom: 10%;
+    left: 14px;
+    font-size: 1.4rem;
+    line-height: 13vw;
+    width: 32vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c78c06;
+    background-color: #102842; 
+    color: white;
+}
+
+/* 10 our team*/
+
+
+
+.john-doe,
+.bob-rite {
+    padding-bottom: 14px;
+    background-color: #ffe6ac;
+    margin-left: 10px;
+}
+
+.bob-rite {
+    margin-top: 15px;
+}
+
+.john-doe img,
+.bob-rite img {
+    object-fit: cover; /*check the code*/
+    height: auto; 
+    width: 100%; 
+} 
+
+.john-doe img {
+    margin-top: -35px;
+}
+
+
+hr {
+    color: #c78c06;
+}
+
+.john-doe p,
+.bob-rite p {
+    margin-top: 5px;
+}
+
+.john-doe h3,
+.bob-rite h3 {
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+p b {
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+
+
+  .d-contact h2{
+    margin-left: 15px;
+  }
+
+  .send-h3 {
+    margin-left: 0px;
+    margin-top: -15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .hours-h3 {
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-bottom: 5px;
+  }
+
+
+  .contact-form form {
+    width: 99%;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    margin-left: 15px;
+  }
+
+
+  .contact-form input {
+    border: 1.5px solid #222;
+    padding: 5px; /*adjusts the length of the lines*/
+    margin-bottom: 10px;
+    width:99%;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+
+  /*message*/
+  textarea {
+    width:98%;
+    line-height: 80px;
+    resize:vertical;
+    border: 1.5px solid #222;
+    border-radius: 3px;
+  }
+
+  .contact-form button {
+    color: #c78c06;
+    background-color: #222;
+    border: none;
+    height: 35px;
+    width: 65px;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  .table-hours {
+    margin-left: 15px;
+  }
+
+
+  .table-hours table {
+    border: 1px solid black;
+    width: 98%;
+    line-height: 45px;
+    margin-bottom: -25px;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  th {
+    background-color: #ffe6ac;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  td {
+    padding-left: 10px;
+  }
+
+  /* map size */
+
+iframe {
+    width: 95%;
+    height: 450px;
+    top: -10px;
+    margin-left: 14px;
+}
+
+.location h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+footer a {
+    color: #c78c06;
+  }
+
+
+
+  /*I added this media query because with a small screen size h1 is overlaid with p*/
+  
+  @media screen and (max-width: 650px) {
+    .container h1 {
+      font-size: 3.5rem !important;
+      line-height: 1.3;
+      /*
+      font-weight: 700 !important;
+      position: absolute !important;
+      margin-top: 6% !important;
+      line-height: 1.3;*/
+    }
+
+}
+
+
+  /* DEKSTOP VERSION */
+
+  @media screen and (min-width: 760px) {
+
+    .wrapper {
+        width: 100%;
+        background-size: cover;
+        max-width: 1200px;
+   }
+
+    /*#1 block for dekstop version*/
+
+
+    .d-nav {
+        box-sizing:border-box;
+    }
+
+    nav li {
+        list-style: none;
+        display: flex;
+        /*justify-content: space-between;*/
+        line-height: 2.5;
+    }
+
+    nav ul {
+        left: -100px;
+        right: -10px;
+        display: flex;
+        justify-content: space-between;
+         /*БЫЛО width 40VW И ЛУЧШЕ СМОТРЕЛОСЬ!!! 500px;*/
+        /*width: 500px;*/
+        width: 550px;
+      }
+
+
+    .logo {
+        background-color: #222;
+        width: 100px;
+        height: 100px;
+        padding-top: auto;
+        padding-bottom: auto;
+        margin-left: 8%;
+        }
+        /*
+    .logo img {
+      margin-top: 0px;
+      margin-left: 0px;
+    }*/
+    
+
+    .navigation {
+        display: flex;/*без данного кода объекты разбросаны по меню*/
+        /*justify-content: space-between;*/
+        align-items: center; /*выравнивает навигационное меню по середине*/
+        font-size: 1rem;
+        justify-content: space-between;
+        gap: 1px;
+        padding-left: 1px;
+        padding-right: 1%;
+        align-content:center;*/
+        width: auto;
+    }
+
+
+    .li-home {
+        background-color: #c78c06;
+        margin-top: 0px;
+        margin-left: -20px;
+        width: 100px;
+    }
+    
+    .li-home a {
+        color: #222;
+    }
+
+    .logo-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .navigation input {
+        font-size: 17px;
+        line-height: 15px;
+        width: 45%;
+    }
+    
+    .fa-magnifying-glass {
+        color: #c78c06;
+        border: 1px solid #c78c06;
+        line-height: 15px;
+        width: 45px;
+        font-size: 20px; /*размер иконки*/
+        /*display: flex;*/
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navigation form {
+        /*display: inline-flex;*/
+        width: 30%;
+        height: 33px;
+        /*margin-top: 30px;*/
+        margin-right: -50px;
+    }
+
+
+    /* 2 block welcome */
+
+.welcome {
+    position: relative;
+}
+
+
+
+.container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*top: 10%;
+    bottom: 10%;
+    padding-left: 10px;
+    padding-right: 10px;*/
+    width: 80%;
+    top: 11%;
+    left: 10%;
+    right: 10%;
+    bottom: 12%;
+}
+
+
+
+.container h1 {
+    color: #f0ffff;
+    font-size: 4.5rem;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 7%;
+    /*left: 2%;*/
+    /*overflow: scroll; DOES NOT WORK */
+}
+.container p {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    margin-top: 110px;
+    position: absolute;
+    /*left: 2%;*/
+    bottom: 25%;
+}
+
+.container button {
+    color: black;
+    background-color: #c78c06;
+    border: none;
+    font-size: 1.4rem;
+    /*line-height: 80px;
+    width: 30vw;*/
+    line-height: 13vw;
+    width: 35vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    /*margin-bottom: 10px;*/
+    left: 2%;
+    right: 0;
+    bottom: 3%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wel-img {
+    height: 610px;
+    width: 100%;
+}
+
+.fa-play {
+    padding-left: 5%;
+    margin-top: 1%;
+}
+
+
+/* 3 block about us */
+
+.about h2 { 
+    margin-top: 0;
+    margin-bottom: 10;
+}
+
+.about img {
+    max-width : 500px;
+    min-width: 300px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+    /*z-index: 1;*/
+}
+.about {
+    background-color: #ffe6ac;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -5px;
+    height: 250px;
+    position: relative;
+    overflow: auto;
+} 
+
+.about p {
+    /*position:absolute;*/
+    /*z-index: 2;*/
+    overflow: scroll;
+}
+
+/* d-services//4-8 block services /sections*/
+
+.d-services {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center; /* this code aligns the sections in the middle of the page*/
+  }
+
+.d-services h2 {
+    margin-left: 8%;
+  }
+
+.our-services {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+section{
+    margin: 10px; /* adds margins on the sides between sections*/
+}
+
+.our-services {
+    flex-basis:calc(100% - 4px);
+}
+    
+
+.digital,
+.marketing {
+    flex-basis:calc(40% - 1px);
+   }
+
+.video-production,
+.web-development,
+.print {
+    flex-basis:calc(30% - 1px);
+   }
+
+.video-production,
+.web-development,
+.print {
+    width: 30%;
+}
+
+.video-production,
+.web-development,
+.print {
+    position: relative;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.digital,
+.marketing {
+    flex-basis:calc(40% - 1px);
+    position: relative;
+    padding-bottom: 9%;
+}
+
+
+.digital button,
+.marketing button {
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: 10px;
+    width: 90%;
+    left: 3%;
+    right: 3%;
+    height: 15%;
+    min-width: 100px;
+    max-width: 500px;
+}
+
+.video-production button,
+.web-development button,
+.print button {
+    margin-bottom: -33px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 93%; 
+    height: 15%;
+    left: 3%;
+    right: 3%;
+      /*left: 50%;
+    transform: translateX(-50%);  /*- это очень крутой код для центрирования кнопки внутри секции*/
+}
+
+/*
+section button {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 0;
+    justify-content: 0;
+    margin-bottom: -40px;
+    /*background-color: #222;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    line-height: 13vw;
+    width: 32vw;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 65px;
+    margin-left: 14px;
+    bottom: 50px;
+    /*these 3 codes allow me to pin the text inside the button:*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Team block*/
+
+.d-team {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.bob-rite {
+  width: 100%;
+  height: auto;
+  margin-top: -10px;
+  margin-bottom: -30px;
+}
+
+.john-doe {
+  width: 100%;
+  height: 90%;
+}
+
+.john-doe img {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: -1px;
+    margin-bottom: -13px;
+    padding-right: 15px;
+}
+
+
+
+.bob-rite img {
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-bottom: -15px;
+}
+  /* 11 contact*/
+
+  .contact{
+    padding: 20px;
+  }
+
+  
+  .d-contact h2{grid-area: h2;}
+  .contact-form {grid-area: form;}
+  .table-hours {grid-area: hours;}
+  .location {grid-area: location;}
+  footer {grid-area: footer;}
+
+  .d-contact {
+    display: grid;
+    /*grid-template-rows: repeat(5, 1fr);*/
+    grid-template-rows: 150px 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap: 20px;
+    grid-template-areas: 
+       "h2 h2"
+       "form location"
+       "form location"
+       "hours hours"
+       "footer footer";
+  }
+
+  .d-contact h2 {
+    margin-bottom: 150px;
+    margin-left: 80px;
+  }
+
+  .location {
+    margin-top: -50px;
+    margin-right: 70px;
+  }
+
+  .contact-form{
+    margin-left: 70px;
+  }
+
+  .table-hours {
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+
+  footer {
+    height: 100px;
+  }
+}
+/* GRID 1 VERSION
+  .d-contact{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .d-contact h2{
+    grid-column: 1 / 3;
+    background-color: #7eb090;
+  }
+
+  .contact-form {
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+  }
+
+  .location {
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+  }
+
+  .table-hours {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+  }
+
+  .footer {
+    grid-row: 7 / 8;
+    grid-column: 1 / span 2;
+    background-color: #222;
+  }
+/*  
