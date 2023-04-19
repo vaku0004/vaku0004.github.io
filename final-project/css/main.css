@@ -146,8 +146,6 @@ nav li {
     bottom: 12%;
 }
 
-
-
 .container h1 {
     color: white;
     font-size: 4.5rem;
@@ -157,6 +155,7 @@ nav li {
     /*left: 2%;*/
     /*overflow: scroll; DOES NOT WORK */
 }
+
 .container p {
     color: white;
     font-size: 0.9rem;
@@ -223,6 +222,7 @@ nav li {
     margin-bottom: 15px;
     padding-left: 13px;
 }
+
 section{
     margin: 18px; /*adds margins on the sides between sections*/
 }
@@ -230,6 +230,7 @@ section{
 section p {
     margin-top: -18px;
 }
+
 .digital,
 .marketing,
 .video-production,
@@ -238,7 +239,6 @@ section p {
     padding-bottom: 14px;
     background-color: #ffe6ac;
 }
-
 
 section button {
     background-color: #222;
@@ -359,56 +359,56 @@ hr {
 p b {
     font-size: 0.9rem;
     font-weight: 800;
-  }
+}
 
 
-  .d-contact h2{
+.d-contact h2 {
     margin-left: 15px;
-  }
+}
 
-  .send-h3 {
+.send-h3 {
     margin-left: 0px;
     margin-top: -15px;
     font-weight: 700;
     margin-bottom: 15px;
-  }
+}
 
-  .hours-h3 {
+.hours-h3 {
     margin-top: 20px;
     margin-left: -15px;
     margin-bottom: 5px;
-  }
+}
 
 
-  .contact-form form {
+.contact-form form {
     width: 99%;
     font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     margin-right: 25px;
     margin-left: 15px;
-  }
+}
 
 
-  .contact-form input {
+.contact-form input {
     border: 1.5px solid #222;
     padding: 5px; /*adjusts the length of the lines*/
     margin-bottom: 10px;
     width:99%;
     box-sizing: border-box;
     border-radius: 3px;
-  }
+}
 
   /*message*/
-  textarea {
+textarea {
     width:98%;
     line-height: 80px;
     resize:vertical;
     border: 1.5px solid #222;
     border-radius: 3px;
-  }
+}
 
-  .contact-form button {
+.contact-form button {
     color: #c78c06;
     background-color: #222;
     border: none;
@@ -417,37 +417,37 @@ p b {
     font-size: 1.3rem;
     margin-top: 20px;
     margin-left: 15px;
-  }
+}
 
-  .table-hours {
+.table-hours {
     margin-left: 15px;
-  }
+}
 
 
-  .table-hours table {
+.table-hours table {
     border: 1px solid black;
     width: 98%;
     line-height: 45px;
     margin-bottom: -25px;
     border-collapse: collapse;
-  }
+}
   
-  th,
-  td {
+th,
+td {
     border: 1px solid black;
     font-size: 0.9rem;
     font-weight: 500;
-  }
+}
 
-  th {
+th {
     background-color: #ffe6ac;
     font-size: 0.9rem;
     font-weight: 500;
-  }
+}
 
-  td {
+td {
     padding-left: 10px;
-  }
+}
 
   /* map size */
 
@@ -600,7 +600,7 @@ nav ul {
     /*overflow: scroll; */
 }
 .container p {
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 0.9rem;
     margin-top: 110px;
     position: absolute;
@@ -613,15 +613,12 @@ nav ul {
     background-color: #c78c06;
     border: none;
     font-size: 1.4rem;
-    /*line-height: 80px;
-    width: 30vw;*/
     line-height: 13vw;
     width: 35vw;
     max-width: 300px;
     min-width: 200px;
     max-height: 100px;
     min-height: 65px;
-    /*margin-bottom: 10px;*/
     left: 2%;
     right: 0;
     bottom: 3%;
@@ -686,7 +683,8 @@ nav ul {
     margin-bottom: 15px;
     padding-left: 9px;
 }
-section{
+
+section {
     margin: 10px; /* adds margins on the sides between sections*/
 }
 
@@ -698,7 +696,7 @@ section{
 .web-development,
 .print {
     flex-basis:calc(30% - 1px);
-   }
+}
 
 .video-production,
 .web-development,
@@ -796,7 +794,6 @@ section{
 }
 
 
-
 .bob-rite img {
     width: 50%;
     height: auto;
@@ -806,17 +803,17 @@ section{
 
 /* D-CONTACT/11 contact*/
 
-.contact{
+.contact {
     padding: 20px;
-  }
+}
 
-  .d-contact h2{grid-area: h2;}
-  .contact-form {grid-area: form;}
-  .table-hours {grid-area: hours;}
-  .location {grid-area: location;}
-  footer {grid-area: footer;}
+.d-contact h2{grid-area: h2;}
+.contact-form {grid-area: form;}
+.table-hours {grid-area: hours;}
+.location {grid-area: location;}
+footer {grid-area: footer;}
 
-  .grid-contact {
+.grid-contact {
     padding-left: 7%;
     padding-right: 7%;
     display: grid;
@@ -828,14 +825,14 @@ section{
        "form location"
        "form location"
        "hours hours";
-  }
+}
 
-  .location {
+.location {
     margin-top: -50px;
     height: 80%;
-  }
+}
 
-  footer {
+footer {
     height: 80px;
     padding-left: 100px;
     padding-top: 30px;
