@@ -330,7 +330,7 @@ section button {
 
 .john-doe img,
 .bob-rite img {
-    object-fit: cover; /*check the code*/
+    /*object-fit: cover; /*useless code*/
     height: auto; 
     width: 100%; 
 } 
@@ -556,7 +556,7 @@ nav ul {
     border: 1px solid #c78c06;
     line-height: 15px;
     width: 45px;
-    font-size: 20px; /*размер иконки*/
+    font-size: 20px; /*icon size*/
     /*display: flex;*/
     justify-content: center;
     align-items: center;
@@ -654,7 +654,7 @@ nav ul {
     height: 100%;
     float: left;
     margin-right: 20px;
-    /*z-index: 1;*/
+    
 }
 .about {
     background-color: #ffe6ac;
@@ -693,12 +693,6 @@ section{
     flex-basis:calc(100% - 2px);
 }
     
-/*
-.digital,
-.marketing {
-    flex-basis:calc(40% - 1px);
-   }
-*/
 .video-production,
 .web-development,
 .print {
@@ -822,7 +816,6 @@ section{
   .location {grid-area: location;}
   footer {grid-area: footer;}
 
-  /*.d-contact*/
   .grid-contact {
     padding-left: 7%;
     padding-right: 7%;
@@ -834,36 +827,14 @@ section{
        "h2 h2"
        "form location"
        "form location"
-       "hours hours"
-       /*"footer footer"*/;
+       "hours hours";
   }
 
   .location {
     margin-top: -50px;
     height: 80%;
   }
-/*
-  .d-contact h2 {
-    margin-bottom: 150px;
-    margin-left: 90px;
-  }
 
-  .location {
-    margin-top: -50px;
-    margin-right: 30px;
-  }
-
-  .contact-form{
-    margin-left: 70px;
-  }
-
-  .table-hours {
-    padding-right: -160px;
-    padding-left: 120px;
-    background-color: aqua;
-    width: auto;
-  }
-*/
   footer {
     height: 80px;
     padding-left: 100px;
