@@ -289,7 +289,7 @@ section button {
 .d-vision p {
   position: absolute;
   top: 80px; 
-  color: #fff; 
+  color: white; 
 }
 
 .d-vision button {
@@ -406,6 +406,7 @@ textarea {
     resize:vertical;
     border: 1.5px solid #222;
     border-radius: 3px;
+    padding-right: 1px;
 }
 
 .contact-form button {
@@ -500,7 +501,7 @@ footer a {
          /*justify-content: space-between;*/
         line-height: 2.5;
     }
-
+/*
     nav ul {
         left: -100px;
          right: -10px;
@@ -508,7 +509,12 @@ footer a {
          justify-content: space-between;
          width: 550px;
         }
-
+*/  
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
 
     .logo {
         width: 90px;
@@ -517,7 +523,7 @@ footer a {
         margin-left: 8%;
         background-color: #222;
     }
-
+/* previous version:
     .navigation {
         display: flex;
         align-items: center; 
@@ -529,6 +535,14 @@ footer a {
         align-content:center;
         width: auto;
         height: 120px;
+    }
+*/
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
     }
 
     .li-home {
@@ -849,7 +863,7 @@ footer a {
     }
 }
 
-@media screen and (min-width: 760px) and (max-width: 800px) {
+@media screen and (min-width: 760px) and (max-width: 850px) {
     .container h1 {
         font-size: 3.5rem !important;
     }
@@ -859,11 +873,62 @@ footer a {
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     h3 {
-        font-size: 1.3rem;
+        font-size: 1.3rem !important;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .video-production button,
+    .web-development button,
+    .print button {
+        margin-bottom: -33px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        width: 70%;
+        height: 10%;
+        max-width: 80px !important; /*it is difficult to fix the length of the buttons on a given screen size*/
+    }
+
+    .grid-contact h2 {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 990px) {
+    .container h1 {
+        font-size: 4.5rem !important;
+    }
+    
+    .navigation ul {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.3rem !important;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .grid-contact h2 {
+        margin-top: 50px;
     }
 }
 
