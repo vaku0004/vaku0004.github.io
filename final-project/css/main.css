@@ -78,7 +78,7 @@ nav li {
 }
 
 .li-home {
-    margin-top: -60px; /* this code shifts the list vertically */
+    margin-top: -80px; /* this code shifts the list vertically */
     width: 100%;
     color: #222;
     margin-bottom: 0;
