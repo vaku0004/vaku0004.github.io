@@ -110,11 +110,11 @@ nav li {
     border: 1px solid #c78c06;
     line-height: 45px;
     width: 40px;
-    font-size: 25px;
+    font-size: 23px;
     display: block;
     padding-left: 10px;
-    padding-top: 5px;
-    padding-right: -10px;
+    padding-top: 6px;
+    padding-right: 0px;
 }
 
 .navigation form {
@@ -579,7 +579,7 @@ footer a {
         line-height: 15px;
         width: 28px;
         font-size: 20px; /*icon size*/
-        padding-left: 4px;
+        padding-left: 6px;
     }
 
     .navigation form {
@@ -612,14 +612,14 @@ footer a {
         margin-top: 7%;
     }
 
-.container p {
-    color: white;
-    font-size: 0.9rem;
-    margin-top: 110px;
-    position: absolute;
-    /*left: 2%;*/
-    bottom: 25%;
-}
+    .container p {
+        color: white;
+        font-size: 0.9rem;
+        margin-top: 110px;
+        position: absolute;
+         /*left: 2%;*/
+        bottom: 25%;
+    }
 
     .container button {
         color: black;
